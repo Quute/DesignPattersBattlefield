@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4abe316e-1650-4f56-a06d-e204ad09420b" name="Default Changelist" comment="" />
+    <list default="true" id="4abe316e-1650-4f56-a06d-e204ad09420b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositeCombat/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompositeCombat/Composite.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DesignPattersBattlefield" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1dDLezWd6NkrjwZAZlq74w22e9q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,9 +32,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.IteratorCrusade">
-    <configuration name="AbstractCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.AbstractCreator" />
+  <component name="RunManager" selected="Application.Composite">
+    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.AbstractFactory" />
       <module name="SE311WORKZONE" />
       <extension name="coverage">
         <pattern>
@@ -42,12 +46,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.AbstractFactory" />
+    <configuration name="Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompositeCombat.Composite" />
       <module name="SE311WORKZONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryBattlefield.*" />
+          <option name="PATTERN" value="CompositeCombat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Composite" />
         <item itemvalue="Application.IteratorCrusade" />
         <item itemvalue="Application.Singleton_LAZY" />
         <item itemvalue="Application.AbstractFactory" />
         <item itemvalue="Application.ConcreteCreator" />
-        <item itemvalue="Application.AbstractCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -130,33 +134,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592652662382">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592742440069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592652662382" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1592698061081">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742440069" />
+    <state width="1877" height="100" key="GridCell.Tab.0.bottom" timestamp="1592742757746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592698061081" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1592698061081">
+    <state width="1877" height="100" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757746" />
+    <state width="1877" height="100" key="GridCell.Tab.0.center" timestamp="1592742757745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592698061081" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1592698061081">
+    <state width="1877" height="100" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
+    <state width="1877" height="100" key="GridCell.Tab.0.left" timestamp="1592742757745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592698061081" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1592698061081">
+    <state width="1877" height="100" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
+    <state width="1877" height="100" key="GridCell.Tab.0.right" timestamp="1592742757745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592698061081" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1592739939095">
+    <state width="1877" height="100" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592740329141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592739939095" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592739904013">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592740329141" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592740297660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592739904013" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592740297660" />
   </component>
 </project>
