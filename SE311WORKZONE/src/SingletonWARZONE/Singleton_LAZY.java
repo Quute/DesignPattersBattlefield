@@ -17,7 +17,7 @@ class Singleton{
 
     }
     void setData(int myData){
-        data = myData;
+            data = myData;
     }
     int getData(){
         return data;

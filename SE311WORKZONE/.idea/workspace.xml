@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4abe316e-1650-4f56-a06d-e204ad09420b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Command/Commandante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonWARZONE/SingletonLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SingletonWARZONE/SingletonSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/ItemElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/ShoppingCartVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompositeCombat/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompositeCombat/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE311WORKZONE/FactoryBattlefield/ConcreteCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE311WORKZONE/FactoryBattlefield/ConcreteCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryBattlefield/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryBattlefield/ConcreteCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonWARZONE/Singleton_LAZY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonWARZONE/Singleton_LAZY.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1dDLezWd6NkrjwZAZlq74w22e9q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,26 +42,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Composite">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\berk_\Desktop\DesignPattersBattlefield\SE311WORKZONE\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SingletonLock">
     <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.AbstractFactory" />
       <module name="SE311WORKZONE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FactoryBattlefield.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompositeCombat.Composite" />
-      <module name="SE311WORKZONE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CompositeCombat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorCrusade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IteratorCrusade.IteratorCrusade" />
+    <configuration name="SingletonLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonWARZONE.SingletonLock" />
       <module name="SE311WORKZONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IteratorCrusade.*" />
+          <option name="PATTERN" value="SingletonWARZONE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonWARZONE.SingletonSynchronized" />
+      <module name="SE311WORKZONE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonWARZONE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Composite" />
-        <item itemvalue="Application.IteratorCrusade" />
+        <item itemvalue="Application.SingletonLock" />
         <item itemvalue="Application.Singleton_LAZY" />
+        <item itemvalue="Application.SingletonSynchronized" />
         <item itemvalue="Application.AbstractFactory" />
         <item itemvalue="Application.ConcreteCreator" />
       </list>
@@ -133,34 +148,39 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/DesignPattersBattlefield" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592742440069">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592929972713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742440069" />
-    <state width="1877" height="100" key="GridCell.Tab.0.bottom" timestamp="1592742757746">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592929972713" />
+    <state width="916" height="343" key="GridCell.Tab.0.bottom" timestamp="1592955020804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="100" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757746" />
-    <state width="1877" height="100" key="GridCell.Tab.0.center" timestamp="1592742757745">
+    <state width="916" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020804" />
+    <state width="916" height="343" key="GridCell.Tab.0.center" timestamp="1592955020803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="100" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
-    <state width="1877" height="100" key="GridCell.Tab.0.left" timestamp="1592742757745">
+    <state width="916" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020803" />
+    <state width="916" height="343" key="GridCell.Tab.0.left" timestamp="1592955020803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="100" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
-    <state width="1877" height="100" key="GridCell.Tab.0.right" timestamp="1592742757745">
+    <state width="916" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020803" />
+    <state width="916" height="343" key="GridCell.Tab.0.right" timestamp="1592955020804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="100" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592742757745" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1592740329141">
+    <state width="916" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020804" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592817011828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592740329141" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592740297660">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592817011828" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592943001535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592740297660" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592943001535" />
   </component>
 </project>

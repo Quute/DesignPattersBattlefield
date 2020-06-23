@@ -41,10 +41,7 @@ class ShapeFactory{
 
         return null;
 
-    }
-
-}
-
+    }}
 public class ConcreteCreator {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
