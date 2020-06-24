@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4abe316e-1650-4f56-a06d-e204ad09420b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Command/Commandante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonWARZONE/SingletonLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonWARZONE/SingletonSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/ItemElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/ShoppingCartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadeHYPES/Facade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SE311WORKZONE/FactoryBattlefield/ConcreteCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE311WORKZONE/FactoryBattlefield/ConcreteCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryBattlefield/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryBattlefield/ConcreteCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonWARZONE/Singleton_LAZY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonWARZONE/Singleton_LAZY.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +38,7 @@
       <recent name="C:\Users\berk_\Desktop\DesignPattersBattlefield\SE311WORKZONE\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonLock">
+  <component name="RunManager" selected="Application.Facade">
     <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.AbstractFactory" />
       <module name="SE311WORKZONE" />
@@ -61,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcreteCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryBattlefield.ConcreteCreator" />
+    <configuration name="Facade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FacadeHYPES.Facade" />
       <module name="SE311WORKZONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryBattlefield.*" />
+          <option name="PATTERN" value="FacadeHYPES.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Facade" />
         <item itemvalue="Application.SingletonLock" />
         <item itemvalue="Application.Singleton_LAZY" />
         <item itemvalue="Application.SingletonSynchronized" />
         <item itemvalue="Application.AbstractFactory" />
-        <item itemvalue="Application.ConcreteCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -158,29 +149,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592929972713" />
-    <state width="916" height="343" key="GridCell.Tab.0.bottom" timestamp="1592955020804">
+    <state width="1877" height="77" key="GridCell.Tab.0.bottom" timestamp="1592962589961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020804" />
-    <state width="916" height="343" key="GridCell.Tab.0.center" timestamp="1592955020803">
+    <state width="1877" height="77" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592962589961" />
+    <state width="1877" height="77" key="GridCell.Tab.0.center" timestamp="1592962589960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020803" />
-    <state width="916" height="343" key="GridCell.Tab.0.left" timestamp="1592955020803">
+    <state width="1877" height="77" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592962589960" />
+    <state width="1877" height="77" key="GridCell.Tab.0.left" timestamp="1592962589960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020803" />
-    <state width="916" height="343" key="GridCell.Tab.0.right" timestamp="1592955020804">
+    <state width="1877" height="77" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592962589960" />
+    <state width="1877" height="77" key="GridCell.Tab.0.right" timestamp="1592962589960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592955020804" />
+    <state width="1877" height="77" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592962589960" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1592817011828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592817011828" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592943001535">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1592998728652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592943001535" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592998728652" />
   </component>
 </project>
